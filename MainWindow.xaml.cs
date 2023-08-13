@@ -23,4 +23,12 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+    
+    private void Button_Click(object sender, RoutedEventArgs e)
+    {
+        string inputTexta1 = inputBoxa1.Text;
+        string inputTexta2 = inputBoxa2.Text;
+
+        outputBoxa.Content = inputTexta1 + inputTexta2;
+    }
 }
