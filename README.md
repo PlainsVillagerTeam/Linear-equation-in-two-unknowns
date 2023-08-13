@@ -5,7 +5,10 @@ A calculator which can give the answer of linear equation in two unknowns. Made 
 ## More Information
 
 .NET Version: 6
+
 Visual Studio When Build: 17.7
+
+More: The project is still testing, please *do not* use.
 
 ## How to fork this program and contribute
 
@@ -17,3 +20,7 @@ Visual Studio When Build: 17.7
 6. Commit to your fork
 7. Open a new Pull Request
 8. Good JOB
+
+## Document & wiki (There are tutorials on it)
+
+[Github](https://plainsvillagerteam.github.io/Linear-equation-in-two-unknowns/)
