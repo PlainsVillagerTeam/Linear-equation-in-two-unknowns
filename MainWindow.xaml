@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="二元一次方程计算器" Height="435" Width="774">
     <Grid>
-        <Label Content="建议化简后使用" FontFamily="STKaiti" FontSize="22" FontWeight="Bold" Foreground="Red" Margin="0,0,0,1"/>
+        <Label Content="建议化简后使用" FontFamily="STKaiti" FontSize="22" FontWeight="Bold" Foreground="Red" Margin="0,0,0,1" HorizontalAlignment="Left" Width="774"/>
         <Label Content="第一个方程" HorizontalAlignment="Left" Margin="42,132,0,0" VerticalAlignment="Top" FontSize="18"/>
         <TextBox x:Name="inputBoxa1" HorizontalAlignment="Left" Margin="192,136,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="18"/>
         <TextBox x:Name="inputBoxa2" HorizontalAlignment="Left" Margin="364,136,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="18"/>
@@ -27,5 +27,7 @@
 
         <Button Content="OK" HorizontalAlignment="Left" Margin="670,350,0,0" VerticalAlignment="Top" FontSize="24" Click="Button_Click"/>
 
+        <Button Content="关于" HorizontalAlignment="Left" Margin="713,10,0,0" VerticalAlignment="Top" FontFamily="SimSun" Click="Button_Click_1"></Button>
+        
     </Grid>
 </Window>

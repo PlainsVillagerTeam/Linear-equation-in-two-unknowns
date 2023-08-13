@@ -31,4 +31,10 @@ public partial class MainWindow : Window
 
         outputBoxa.Content = inputTexta1 + inputTexta2;
     }
+
+    private void Button_Click_1(object sender, RoutedEventArgs e)
+    {
+        About a = new About();
+        a.Show();
+    }
 }
