@@ -41,5 +41,10 @@ namespace Linear_equation_in_two_unknowns
                 Process.Start(new ProcessStartInfo("cmd", $"/c start {url}") { CreateNoWindow = true });
             }
         }
+
+        private void Label_Initialized(object sender, EventArgs e)
+        {
+            Version.Content = $"版本: {Util.version}";
+        }
     }
 }

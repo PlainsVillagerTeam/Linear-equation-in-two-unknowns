@@ -22,6 +22,6 @@
 	        </Hyperlink>
         </TextBlock>
 
-        <Label Content="版本：DEMO" HorizontalAlignment="Left" Margin="120,144,0,0" VerticalAlignment="Top"></Label>
+        <Label x:Name="Version" Content="版本：" HorizontalAlignment="Left" Margin="120,144,0,0" VerticalAlignment="Top" Initialized="Label_Initialized"></Label>
     </Grid>
 </Window>
