@@ -8,13 +8,13 @@
         Title="About" Height="304" Width="252">
     <Grid>
         <Image Source="/Resources/Plains_Villager_Base.png" HorizontalAlignment="Left" Height="100" Margin="22,20,0,0" VerticalAlignment="Top" Width="50" Grid.ColumnSpan="2"/>
-        <Label Grid.Column="1" HorizontalAlignment="Left" Margin="69,38,0,0" VerticalAlignment="Top" Height="84" Width="155">
+        <Label HorizontalAlignment="Left" Margin="69,38,0,0" VerticalAlignment="Top" Height="84" Width="155">
             <TextBlock Text="Linear equation in two unknowns" TextWrapping="Wrap" FontSize="18" FontFamily="Consolas"/>
         </Label>
 
-        <Label Grid.Column="1" Content="LETUC" HorizontalAlignment="Left" Margin="20,88,0,0" VerticalAlignment="Top" Height="84" Width="155" Foreground="Green" FontFamily="黑体" FontSize="20"></Label>
+        <Label Content="LETUC" HorizontalAlignment="Left" Margin="20,88,0,0" VerticalAlignment="Top" Height="84" Width="155" Foreground="Green" FontFamily="黑体" FontSize="20"></Label>
 
-        <Label Grid.Column="1" Content="作者：PlainsVillager" HorizontalAlignment="Left" Margin="70,108,0,0" VerticalAlignment="Top"></Label>
+        <Label Content="作者：PlainsVillager" HorizontalAlignment="Left" Margin="70,108,0,0" VerticalAlignment="Top"></Label>
 
         <TextBlock>
 	        <Hyperlink NavigateUri="https://github.com/PlainsVillagerTeam/Linear-equation-in-two-unknowns" Click="Hyperlink_Click">
@@ -22,6 +22,6 @@
 	        </Hyperlink>
         </TextBlock>
 
-        <Label Content="版本：DEMO" Grid.Column="1" HorizontalAlignment="Left" Margin="160,264,0,0" VerticalAlignment="Top"></Label>
+        <Label Content="版本：DEMO" HorizontalAlignment="Left" Margin="120,144,0,0" VerticalAlignment="Top"></Label>
     </Grid>
 </Window>

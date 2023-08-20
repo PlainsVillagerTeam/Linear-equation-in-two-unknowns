@@ -14,7 +14,7 @@
         <Label x:Name="outputBoxa" HorizontalAlignment="Left" Margin="610,132,0,0" Content="" VerticalAlignment="Top" Width="120" FontSize="18"/>
         <Label Content="X项：" HorizontalAlignment="Left" Margin="147,132,0,0" VerticalAlignment="Top" FontSize="18"/>
         <Label Content="Y项：" HorizontalAlignment="Left" Margin="317,132,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <Label Content="结果：" HorizontalAlignment="Left" Margin="561,132,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="inputBoxa3"  Margin="540,-125,0,0" FontSize="18" Height="20" Width="60"></TextBox>
         
         
         <Label Content="第二个方程" HorizontalAlignment="Left" Margin="42,194,0,0" VerticalAlignment="Top" FontSize="18"/>
@@ -23,10 +23,13 @@
         <Label x:Name="outputBoxb" HorizontalAlignment="Left" Margin="610,198,0,0" Content="" VerticalAlignment="Top" Width="120" FontSize="18"/>
         <Label Content="X项：" HorizontalAlignment="Left" Margin="147,195,0,0" VerticalAlignment="Top" FontSize="18"/>
         <Label Content="Y项：" HorizontalAlignment="Left" Margin="317,195,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <Label Content="结果：" HorizontalAlignment="Left" Margin="561,195,0,0" VerticalAlignment="Top" FontSize="18"/>
-
+        <TextBox x:Name="inputBoxb3"  Margin="540,0,0,0" FontSize="18" Height="20" Width="60"></TextBox>
+        
+        
         <Button Content="OK" HorizontalAlignment="Left" Margin="670,350,0,0" VerticalAlignment="Top" FontSize="24" Click="Button_Click"/>
 
+        <Label x:Name="Result" Content="Result will be here" FontSize="18" Margin="50,350,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></Label>
+        
         <Button Content="关于" HorizontalAlignment="Left" Margin="713,10,0,0" VerticalAlignment="Top" FontFamily="SimSun" Click="Button_Click_1"></Button>
         
     </Grid>
